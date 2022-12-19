@@ -1,0 +1,51 @@
+-----------------------------------------------------------------------------
+
+FIRST QUESTION PROMPT ANSWER
+Question Prompt Location: LOWER MIDDLE OF Main.java file
+
+CODE FOR CREATING THE WORDBANK ARRAY
+    String[] wordBank = {"water", "lumpy", "admin", "omega", ..., "artsy", "rural", "shave"};
+
+
+Explanation of answer:
+
+    From the provided list of five letter words, we know that the data type for the array is "string"
+
+    Then, we also have our array name, wordBank , which is provided in the directions of the question prompt.
+
+    Finally, we already have the provided list, so we can create our array by using the previously learned format:
+        datatype[] name = {a, b, c};
+
+Plugging in each of the parts mentioned above, we have our answer of:
+    String[] wordBank = {"water", "lumpy", "admin", "omega", ..., "artsy", "rural", "shave"};
+
+-----------------------------------------------------------------------------
+
+SECOND QUESTION PROMPT ANSWER
+Question Prompt Location: BOTTOM OF Main.java file
+
+CODE FOR THE RANDOM ANSWER GENERATOR
+    return wordBank[(int)(Math.random() * (wordBank.length - 1))];
+
+
+Explanation of answer:
+
+    We want to return a word that will be the answer of the Wordle, and it's as simple as that, we begin our line with "return"
+
+    Then, we can call on the array name, followed by brackets "[]" that contain the index of the desired item (refer to lesson document)
+
+    Because we want to return a random word from the list, we can use a Math.random() function, multiplied by the length of our array.
+        Math.random() is something you should already know how to utilize, so if you don't, then QUIT SLEEPING IN CLASS
+
+    We can then take the length of our array with our "array name".length
+
+    However, we have to keep in mind that the index of an array begins with an index of 0 representing the first item, so we must subtract "1" from the length we have grabbed.
+
+With that, we have our answer of:
+    return wordBank[(int)(Math.random() * (wordbank.length - 1))];
+
+-----------------------------------------------------------------------------
+
+
+
+
