@@ -42,7 +42,7 @@ Explanation of answer:
     However, we have to keep in mind that the index of an array begins with an index of 0 representing the first item, so we must subtract "1" from the length we have grabbed.
 
 With that, we have our answer of:
-    return wordBank[(int)(Math.random() * (wordbank.length - 1))];
+    return wordBank[(int)(Math.random() * (wordBank.length - 1))];
 
 -----------------------------------------------------------------------------
 
